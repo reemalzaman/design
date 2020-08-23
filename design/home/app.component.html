@@ -1,0 +1,75 @@
+<!-- install carousel in project by: ng new angular-ng-bootstrap-carousel-->
+<!-- install jquery: npm install jquery
+  follow steps from this link: https://www.truecodex.com/course/angular-6/how-to-use-external-js-files-and-javascript-code-in-angular
+-->
+
+<!-- red buttons: https://codepen.io/davidicus/pen/emgQKJ -->
+
+<!-- white buttons: https://codepen.io/kjbrum/pen/wBBLXx -->
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link hdr-btn"><i class="fa fa-user"></i></a>
+              </li>
+
+              <div ngbDropdown class="nav-item">
+                <a class="nav-link hdr-btn" id="dropdownBasic1" ngbDropdownToggle><i class="fa fa-cog"></i></a>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                  <button ngbDropdownItem>Action - 1</button>
+                  <button ngbDropdownItem>Another Action</button>
+                  <button ngbDropdownItem>Something else is here</button>
+                </div>
+              </div>
+
+          </ul>
+          <ul class="navbar-nav" style="direction: rtl;">
+              <li class="nav-item">
+                  <a class="nav-link hdr-btn"><i class="fa fa-home"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hdr-btn">الاول</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hdr-btn">الاول</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link hdr-btn">الاول</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-border-2" href="">I'm a button</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-border-3" href="">I'm a button</a>
+            </li>
+          </ul>
+      </div>
+      <a class="navbar-brand" href="#">logo</a>
+
+  </nav>
+
+ 
+ <div class="main-div">
+  <h4 class="one"><span>Heading</span></h4>
+ </div>
+
+
+<router-outlet></router-outlet>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-light">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">2020 
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
